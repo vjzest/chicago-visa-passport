@@ -1,0 +1,17 @@
+"use client";
+"use client";
+import { RestrictedAccessRoute } from "@/components/globals/Auth/restricted-access-route";
+import React from "react";
+
+const layout = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <RestrictedAccessRoute
+      section="ultimateUserPrivileges"
+      action={"createAndEditUsers"}
+    >
+      {children}
+    </RestrictedAccessRoute>
+  );
+};
+
+export default layout;

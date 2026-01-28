@@ -1,0 +1,514 @@
+{
+    "heroSection": {
+        "banner": {
+            "text": "Fast, Secure & Easy Passport and Visa Solutions"
+        },
+        "headings": {
+            "main": "Chicago Passport & Visa Expedite Services",
+            "sub": "Apply online now or visit our Chicago office to apply in person.",
+            "servicePrompt": "Select Your Service Below: USA Passport or Visa Type that you Need."
+        },
+        "description": "Travel documents made simple - secure, fast, and stress-free passport and visa services right here in Chicago. Whether online or in person, we get you ready to go without the wait.",
+        "form": {
+            "visaButtonText": "Get Visa Options",
+            "eVisaButtonText": "Get E-Visa Options",
+            "validationAlert": "Please select all fields",
+            "labels": {
+                "citizenOf": "Citizen Of:",
+                "residingIn": "Residing in:",
+                "travelingTo": "Traveling to:"
+            }
+        },
+        "contact": {
+            "schedule": "CALL NOW | Mon-Fri: 8:30am-5:00pm Sat 10:00am - 2:00pm. Sun/Holidays: Closed"
+        },
+        "images": {
+            "glow": {
+                "src": "/landing/assets/green-glow-img.png",
+                "alt": "Green glow effect"
+            },
+            "hero": {
+                "src": "/landing/assets/hero-img.png",
+                "alt": "Illustration of a person with travel documents and a globe"
+            }
+        }
+    },
+    "processSection": {
+        "heading": {
+            "line1": "How the",
+            "line2": "Process Works"
+        },
+        "steps": [
+            {
+                "number": "1",
+                "title": "Submit Your Application",
+                "text": "Fill out our simple online form with your details."
+            },
+            {
+                "number": "2",
+                "title": "We Handle the Documents",
+                "text": "Send your documents to us, and our team works directly with the U.S. Passport Agency on your behalf."
+            },
+            {
+                "number": "3",
+                "title": "Receive Your Passport or Visa",
+                "text": "Get your passport or visa securely delivered, expedited in as little as 1–14 days."
+            }
+        ]
+    },
+    "travelServiceSection": {
+        "header": {
+            "heading": "Choose the Travel Service That Fits Your Needs",
+            "subheading": "Our travel specialists guide you through the entire process, ensuring your documents are delivered securely and quickly."
+        },
+        "images": {
+            "buttonIcon": "/landing/assets/btn-red.svg",
+            "visaBg": "/landing/assets/travel-service-visa-bg.png",
+            "evisaBg": "/landing/assets/travel-service-evisa-bg.png",
+            "passportBg": "/landing/assets/passport-bg-image.png"
+        },
+        "passportTab": {
+            "featured": {
+                "title": "New Passport"
+            },
+            "services": [
+                {
+                    "line1": "Passport",
+                    "line2": "Renewal"
+                },
+                {
+                    "line1": "Child",
+                    "line2": "passport"
+                },
+                {
+                    "line1": "Lost",
+                    "line2": "Passport"
+                },
+                {
+                    "line1": "Passport",
+                    "line2": "Name change"
+                },
+                {
+                    "line1": "Second",
+                    "line2": "Limited Passport"
+                }
+            ]
+        }
+    },
+    "doneRightSection": {
+        "content": {
+            "headingLines": [
+                "Expedited",
+                "Processing,",
+                "Done Right"
+            ],
+            "paragraph": "We can expedite your application in as little as 1–14 days — far faster than traditional government processing times of 5–7 weeks. Whether you need same-day service or a 2-week turnaround, we’ve got you covered."
+        },
+        "image": {
+            "src": "/landing/assets/done-right-img.png",
+            "alt": "A person happily holding their new passport"
+        }
+    },
+    "popularVisasSection": {
+        "header": {
+            "heading": "Most Popular Visas",
+            "subheading": "Intuitively visualize, review and manage your personal visa application instantly."
+        },
+        "visas": [
+            {
+                "title": "Indian Visa",
+                "imageSrc": "/landing/assets/indian-visa-bg.png",
+                "url": "/e-visas/india-evisa"
+            },
+            {
+                "title": "Brazil Visa",
+                "imageSrc": "/landing/assets/brazil-visa-bg.png",
+                "url": "/visas/brazil"
+            },
+            {
+                "title": "China Visa",
+                "imageSrc": "/landing/assets/china-visa-bg.png",
+                "url": "/visas/china"
+            },
+            {
+                "title": "Kenya Visa",
+                "imageSrc": "/landing/assets/kenya-visa-bg.png",
+                "url": "/e-visas/kenya-evisa"
+            }
+        ]
+    },
+    "whyChooseSection": {
+        "main": {
+            "heading": "Why Choose Chicago Passport & Visa?",
+            "paragraph": "Our passport specialists assist you through the process from beginning to end, delivering your travel documents securely and quickly.",
+            "button": {
+                "text": "Get Started Today",
+                "path": "/#hero_section"
+            }
+        },
+        "features": [
+            {
+                "title": "Expertise",
+                "description": "Our team of passport and travel experts is highly experienced in navigating the complex world of travel documentation. We handle every requirement with accuracy and care, so you can focus on your journey with peace of mind."
+            },
+            {
+                "title": "Speed & Efficiency",
+                "description": "We understand that travel plans can be time-sensitive. Our streamlined process ensures that your passport or visa is processed quickly, without unnecessary delays."
+            },
+            {
+                "title": "Security & Confidentiality",
+                "description": "Your personal information and documents are handled with the utmost confidentiality and protected using secure submission channels."
+            }
+        ]
+    },
+    "comparisonSection": {
+        "header": {
+            "headingLines": [
+                "Get Faster Turnaround",
+                "and Better Service Than the Post Office"
+            ],
+            "subheading": "Same-day and next-day services available, open 7 days a week, including holidays."
+        },
+        "table": {
+            "headers": {
+                "ours": {
+                    "logoSrc": "/landing/assets/logo.svg",
+                    "logoAlt": "Chicago Passport & Visa Logo"
+                },
+                "theirs": "Post Office"
+            },
+            "icons": {
+                "check": {
+                    "src": "/landing/assets/check-icon.svg",
+                    "alt": "Checkmark icon"
+                },
+                "cross": {
+                    "src": "/landing/assets/x-icon.svg",
+                    "alt": "Cross icon"
+                }
+            },
+            "rows": [
+                {
+                    "label": "Processing Times",
+                    "ours": "Guaranteed",
+                    "theirs": "Not Guaranteed"
+                },
+                {
+                    "label": "Next Business Day",
+                    "ours": "24 Hours",
+                    "theirs": "Not Offered"
+                },
+                {
+                    "label": "Urgent",
+                    "ours": "3 – 5 Business Days",
+                    "theirs": "Not Offered"
+                },
+                {
+                    "label": "Express",
+                    "ours": "5 – 7 Business Days",
+                    "theirs": "Not Offered"
+                },
+                {
+                    "label": "Rush",
+                    "ours": "7 – 8 Business Days",
+                    "theirs": "10 – 13 Business Days"
+                },
+                {
+                    "label": "Standard",
+                    "ours": "8 – 11 Business Days",
+                    "theirs": "10 – 15 Business Days"
+                },
+                {
+                    "label": "Case Manager",
+                    "ours": "Caring Specialist",
+                    "theirs": "Not Offered"
+                },
+                {
+                    "label": "Convenience",
+                    "ours": "Simplicity",
+                    "theirs": "Hassle, Long Lines"
+                },
+                {
+                    "label": "Phone Support",
+                    "ours": "Speak to a Real Person",
+                    "theirs": "Updates via Mail"
+                },
+                {
+                    "label": "White Glove Handling",
+                    "ours": "VIP Premium",
+                    "theirs": "Not Offered"
+                }
+            ]
+        },
+        "button": {
+            "text": "Start my Application",
+            "path": "/us-passport"
+        }
+    },
+    "testimonialsSection": {
+        "header": {
+            "headingLines": [
+                "Hear Why Customers Choose",
+                "Chicago Passport & Visa Services",
+                "Every Time"
+            ]
+        },
+        "images": {
+            "stars5": {
+                "src": "/landing/assets/starts-img.svg",
+                "alt": "5 out of 5 stars rating"
+            },
+            "stars4": {
+                "src": "/landing/assets/stars-4-img.svg",
+                "alt": "4 out of 5 stars rating"
+            }
+        },
+        "reviews": [
+            {
+                "name": "Sarah L.",
+                "text": "Incredibly fast and professional service. They made a stressful process completely seamless. Highly recommended for anyone needing a passport in a hurry!",
+                "stars": 5
+            },
+            {
+                "name": "Michael B.",
+                "text": "The team was so helpful and answered all my questions. I got my visa for Brazil much faster than I expected. Thank you!",
+                "stars": 5
+            },
+            {
+                "name": "Jennifer P.",
+                "text": "Excellent communication throughout the entire process. While it took a day longer than the minimum estimate, the service was still very reliable.",
+                "stars": 4
+            },
+            {
+                "name": "David R.",
+                "text": "I used their service for my child's passport and it was a lifesaver. Everything was handled perfectly. Worth every penny for the peace of mind.",
+                "stars": 5
+            },
+            {
+                "name": "Emily K.",
+                "text": "A truly five-star experience. From the initial call to receiving my renewed passport, everything was top-notch. I'll be back for any future travel document needs.",
+                "stars": 5
+            }
+        ]
+    },
+    "imagePassportSection": {
+        "image": {
+            "src": "/landing/assets/image-passport.png",
+            "alt": "A decorative image of a passport and travel documents on a map"
+        }
+    },
+    "contactPage": {
+        "header": {
+            "heading": "Get In Touch With Us Today!",
+            "paragraph": "We are registered and authorized by the US Government and foreign embassies to expedite your US passport and foreign visa. We charge an additional fee to expedite your application in 1-10 days."
+        },
+        "contactInfo": [
+            {
+                "icon": {
+                    "src": "/landing/assets/navigation-icon.svg",
+                    "alt": "Navigation icon"
+                },
+                "text": "180 N La Salle Street, Suite 106, Chicago, IL 60601"
+            },
+            {
+                "icon": {
+                    "src": "/landing/assets/phone-contact-icon.svg",
+                    "alt": "Phone icon"
+                },
+                "text": "(312) 525-3278",
+                "href": "tel:312-525-3278"
+            },
+            {
+                "icon": {
+                    "src": "/landing/assets/contact-email-icon.svg",
+                    "alt": "Email icon"
+                },
+                "text": "info@chicagopassport-visa.com",
+                "href": "mailto:info@chicagopassport-visa.com"
+            }
+        ],
+        "form": {
+            "labels": {
+                "name": "Name*",
+                "email": "Email*",
+                "phone": "Phone*",
+                "message": "Message*"
+            },
+            "buttonText": "Submit"
+        }
+    },
+    "visaProcessPage": {
+        "header": {
+            "heading": "How Our Visa & Passport Process Works",
+            "paragraph": "Applying for a U.S. passport or visa doesn’t have to be stressful. We’ve designed a simple, secure, and fast 3-step process to help you get your documents without the hassle of long lines or confusing paperwork."
+        },
+        "steps": [
+            {
+                "id": 1,
+                "title": "Step 1: Choose Your Service & Fill Out the Form",
+                "text": "Select the passport or visa service you need and complete our secure online application form. It's designed to be quick and easy to understand.",
+                "image": {
+                    "src": "/landing/assets/visa-step-1.png",
+                    "alt": "Illustration of selecting a service on a form"
+                }
+            },
+            {
+                "id": 2,
+                "title": "Step 2: Gather & Send Your Documents",
+                "text": "We provide a detailed checklist of all the required documents. Gather them and send them to our secure office using the prepaid shipping label we provide.",
+                "image": {
+                    "src": "/landing/assets/visa-step-2.png",
+                    "alt": "Illustration of gathering documents into a folder"
+                }
+            },
+            {
+                "id": 3,
+                "title": "Step 3: We Process & You Receive Your Documents",
+                "text": "Our specialists review your application for accuracy and submit it to the appropriate government agency. Once approved, we'll securely ship your new passport or visa directly to you.",
+                "image": {
+                    "src": "/landing/assets/visa-step-3.png",
+                    "alt": "Illustration of receiving a passport by mail"
+                }
+            }
+        ]
+    },
+    "contactUsServicesSection": {
+        "heading": "Contact Us for Various Chicago Passport Services",
+        "paragraph": "Chicago Passport & Visa Services, registered with U.S. Passport Agencies under the name A Rush Passport & Visa Services, is a private company authorized to provide hand-carry commercial courier services for U.S. citizens in need of passports. From taking passport photos to assisting with document preparation, we offer a full suite of services designed to streamline the passport application process and support U.S. citizens in obtaining their passports quickly and securely.",
+        "button": {
+            "text": "Contact Us today",
+            "path": "/contact-us"
+        }
+    },
+    "mapSection": {
+        "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5940.823185480798!2d-87.62955128107495!3d41.88400455917151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cb097822e2d%3A0x3cf90da74937a9dd!2sChicago%20Passport%20%26%20Visa%20Services!5e0!3m2!1shr!2sba!4v1760001107843!5m2!1shr!2sba"
+    },
+    "visaProcessPage": {
+        "header": {
+            "heading": "How Our Visa & Passport Process Works",
+            "paragraph": "Applying for a U.S. passport or visa doesn’t have to be stressful. We’ve designed a simple, secure, and fast 3-step process to help you get your documents without the hassle of long lines or confusing paperwork."
+        },
+        "steps": [
+            {
+                "id": 1,
+                "title": "Step 1: Choose Your Service <br /> & Fill Out the Form",
+                "paragraphs": [
+                    "Select the passport or visa service you need and complete our secure online application form. It's designed to be quick and easy to understand."
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Step 2: Gather & Send <br /> Your Documents",
+                "paragraphs": [
+                    "We provide a detailed checklist of all the required documents. Gather them and send them to our secure office using the prepaid shipping label we provide."
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Step 3: We Process & You <br /> Receive Your Documents",
+                "paragraphs": [
+                    "Our specialists review your application for accuracy and submit it to the appropriate government agency. Once approved, we'll securely ship your new passport or visa directly to you."
+                ]
+            }
+        ]
+    },
+    "ukEtaVisaPage": {
+        "country": "UK ETA",
+        "hero_title": "UK ETA Visa",
+        "hero_description": "The ETA is a fast online travel authorization required for travelers visiting the UK...",
+        "image": {
+            "src": "/landing/assets/uk-img.png",
+            "alt": "Iconic view of the UK"
+        }
+    },
+    "singlePageArchiveComponent": {
+        "buttonText": "Get Started Today",
+        "selectTypeTitles": {
+            "passport": "Select Passport Type",
+            "visa": "Select Visa Type that you Need"
+        }
+    },
+    "usPassportPage": {
+        "title": "Everything You Need for a US Passport",
+        "description": "We offer same-day passports, as well as passports in 3-5 days, 5-7 days, 7-10 days, 10-14 days, and 3-4 weeks.",
+        "image": {
+            "src": "/landing/assets/us-passport-img.png",
+            "alt": "Image of a US Passport and travel documents"
+        }
+    },
+    "headerSection": {
+        "topBar": {
+            "announcement": "WALK-INS WELCOME - 180 N LASALLE ST #106, CHICAGO, IL 60601, USA",
+            "contact": {
+                "phone": {
+                    "text": "312-925-3278",
+                    "href": "tel:312-925-3278",
+                    "icon": {
+                        "src": "/landing/assets/phone-icon.svg",
+                        "alt": "Phone"
+                    }
+                },
+                "email": {
+                    "text": "INFO@CHICAGOPASSPORT-VISA.COM",
+                    "href": "mailto:info@chichagopassport-visa.com",
+                    "icon": {
+                        "src": "/landing/assets/email-icon.svg",
+                        "alt": "Email"
+                    }
+                }
+            }
+        },
+        "mainNav": {
+            "logo": {
+                "src": "/landing/assets/logo.svg",
+                "alt": "Chicago Passport & Visa Logo"
+            },
+            "accountIcon": {
+                "src": "/landing/assets/account-icon.svg",
+                "alt": "User Account"
+            },
+            "links": {
+                "usPassport": "US Passport",
+                "visas": "Visas",
+                "eVisas": "E-Visas",
+                "ukEtaVisa": "UK ETA Visa",
+                "process": "Process",
+                "contact": "Contact us"
+            }
+        }
+    },
+    "footerSection": {
+        "about": {
+            "description": "Chicago Passport & Visa Services – Fast, reliable, and secure travel document solutions since day one."
+        },
+        "workingHours": {
+            "title": "Working Hours",
+            "hours": [
+                "Mon-Fri: 8:30am-5:00pm",
+                "Sat 10:00am - 2:00pm",
+                "Sunday by Appointment Only"
+            ]
+        },
+        "quickLinks": {
+            "title": "Quick Links",
+            "home": "Home",
+            "usPassport": "US Passport",
+            "visas": "Visas",
+            "eVisas": "E-Visas",
+            "ukEtaVisa": "UK ETA Visa",
+            "blog": "Blog"
+        },
+        "contact": {
+            "title": "Contact",
+            "email": "info@chicagopassport-visa.com",
+            "phone": "(312) 925-3278",
+            "location": "180 N La Salle Street, Suite 106, Chicago, IL 60601"
+        },
+        "bottomBar": {
+            "copyright": "Copyright By © Chicago Passport & Visa Expedite 2025. All Rights Reserved.",
+            "privacy": "Privacy Policy",
+            "terms": "Terms & Conditions",
+            "refund": "Refund Policy"
+        }
+    }
+}

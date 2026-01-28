@@ -1,0 +1,155 @@
+/* Content Wrapper - Ensures proper spacing & typography */
+.content-wrapper {
+  /* font-size: 1rem; */
+  /* line-height: 1.6; */
+  color: black;
+}
+
+/* Headings */
+.content-wrapper h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.content-wrapper h2 {
+  font-size: 1.75rem;
+  /* font-weight: bold; */
+  margin-bottom: 0.75rem;
+}
+
+.content-wrapper h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.content-wrapper h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.content-wrapper h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.content-wrapper h6 {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure paragraphs have spacing */
+.content-wrapper p {
+  margin-bottom: 1rem; /* Adds space between paragraphs */
+  white-space: pre-line; /* Preserves line breaks */
+}
+
+/* Ensure line breaks (<br>) are respected */
+.content-wrapper br {
+  display: block;
+  content: "";
+  margin-top: 0.5rem; /* Adds spacing for better readability */
+}
+
+
+/* Lists */
+/* Ensure lists display properly */
+.content-wrapper ul,
+.content-wrapper ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem; /* Ensures proper indentation */
+}
+
+/* Unordered list (bullets) */
+.content-wrapper ul {
+  list-style-type: disc !important; /* Forces bullet points */
+}
+
+/* Ordered list (numbers) */
+.content-wrapper ol {
+  list-style-type: decimal !important; /* Ensures numbers */
+}
+
+/* List items */
+.content-wrapper li {
+  margin-bottom: 0.5rem;
+  display: list-item; /* Ensures proper list styling */
+}
+
+/* Nested Lists */
+.content-wrapper ul ul, 
+.content-wrapper ol ol, 
+.content-wrapper ul ol, 
+.content-wrapper ol ul {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  list-style-type: circle !important; /* Ensures nested list styling */
+}
+
+
+/* Blockquote */
+.content-wrapper blockquote {
+  border-left: 4px solid #006DCC;
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+/* Tables */
+.content-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+
+/* Table Borders & Spacing */
+.content-wrapper th, 
+.content-wrapper td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Table Header */
+.content-wrapper th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+/* Alternating Row Colors */
+.content-wrapper tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover Effect */
+.content-wrapper tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Ensure Tables Scroll on Small Screens */
+.content-wrapper .table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Links */
+.content-wrapper a {
+  color: #006DCC;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.content-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.content-wrapper * {
+  font-family: 'Inter';
+}

@@ -1,0 +1,143 @@
+export const states = [
+  "Alabama",
+  "Alaska",
+  "Arizona",
+  "Arkansas",
+  "California",
+  "Colorado",
+  "Connecticut",
+  "Delaware",
+  "Florida",
+  "Georgia",
+  "Hawaii",
+  "Idaho",
+  "Illinois",
+  "Indiana",
+  "Iowa",
+  "Kansas",
+  "Kentucky",
+  "Louisiana",
+  "Maine",
+  "Maryland",
+  "Massachusetts",
+  "Michigan",
+  "Minnesota",
+  "Mississippi",
+  "Missouri",
+  "Montana",
+  "Nebraska",
+  "Nevada",
+  "New Hampshire",
+  "New Jersey",
+  "New Mexico",
+  "New York",
+  "North Carolina",
+  "North Dakota",
+  "Ohio",
+  "Oklahoma",
+  "Oregon",
+  "Pennsylvania",
+  "Rhode Island",
+  "South Carolina",
+  "South Dakota",
+  "Tennessee",
+  "Texas",
+  "Utah",
+  "Vermont",
+  "Virginia",
+  "Washington",
+  "West Virginia",
+  "Wisconsin",
+  "Wyoming",
+  "Puerto Rico",
+  "Guam",
+  "U.S. Virgin Islands",
+  "American Samoa",
+  "Northern Mariana Islands",
+  "District of Columbia",
+];
+
+export const services = [
+  { value: "passport", label: "Passport", default: true },
+  { value: "visa", label: "Visa" },
+  { value: "e-visa", label: "E Visa" },
+];
+
+export const passportServiceOptions = [
+  "New Passport",
+  "Passport Renewal",
+  "Child Passport",
+  "Lost Passport",
+  "Passport Name Change",
+  "Second Limited Passport",
+  "Additional Requirements for US Passports",
+];
+
+export const travelVisaCountries = [
+  "china",
+  "ghana",
+  "brazil",
+  "uk",
+  "nigeria",
+];
+
+export const eVisaCountries = [
+  "india-evisa",
+  "brazil-evisa",
+  "vietnam-evisa",
+  "kenya-evisa",
+  "cambodia-evisa",
+];
+
+export const testimonials = [
+  {
+    name: "Daniel C.",
+    text: "Absolutely top-notch service! My experience was fantastic. The staff was wonderful; they were incredibly friendly, very knowledgeable, quick, and their information was spot on. Additionally, they were happy to take as many quality photos as I needed until I found one I liked. Finally, their prices were very reasonable given the level of service they offered, and I received my new passport in no time at all.",
+    stars: 5,
+  },
+  {
+    name: "Ramon J.",
+    text: "If you need your passport quick, these guys are the go to people. The staff was very kind and respectful. Explained the process and I didn’t have to worry about a thing. Thanks again guys!",
+    stars: 5,
+  },
+  {
+    name: "Kacia M.",
+    text: "The fees were very high! However, the service was excellent. The staff was friendly, thorough and I received my expedited passport in a week’s time.",
+    stars: 4,
+  },
+  {
+    name: "Patty C.",
+    text: "I visited last Saturday and was so impressed - my passport book was ready in just 3 days! The staff is fantastic; if you’re not happy with your picture, they’ll retake it for you.",
+    stars: 5,
+  },
+  {
+    name: "Mohib S.",
+    text: "Excellent experience! From start to finish, the team was professional, efficient, and incredibly helpful. What could have been stressful turned out smooth and hassle-free.",
+    stars: 5,
+  },
+  {
+    name: "Trina T.",
+    text: "Very efficient! They even got it faster than promised. I will always recommend them. Thank you!",
+    stars: 5,
+  },
+  {
+    name: "Bravona W.",
+    text: "Received my passport in less than five business days. The customer service was excellent—very attentive and professional throughout. Highly recommend their services!",
+    stars: 5,
+  },
+  {
+    name: "Tabatha T.",
+    text: "Their service was very pleasant and swift! Worth every penny. I'll be back in 10 years!",
+    stars: 5,
+  },
+  {
+    name: "Marisa D.",
+    text: "A bit expensive but definitely worth it! My passport came a week early from when I expected it. Friendly and helpful staff throughout the process.",
+    stars: 5,
+  },
+  {
+    name: "Matthew W.",
+    text: "I needed a passport in 3 days and these folks made it happen! They even tracked it down when the carrier delayed it. Professional, courteous, and friendly service!",
+    stars: 5,
+  },
+];

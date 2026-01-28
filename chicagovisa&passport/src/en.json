@@ -1,0 +1,792 @@
+{
+  "heroSection": {
+    "banner": {
+      "text": "Fast, Secure & Easy Passport and Visa Solutions"
+    },
+    "headings": {
+      "main": "Chicago Passport & Visa Expedite Services",
+      "sub": "Apply online now or visit our Chicago office to apply in person.",
+      "servicePrompt": "Select Your Service Below: USA Passport or Visa Type that you Need."
+    },
+    "description": "Travel documents made simple - secure, fast, and stress-free passport and visa services right here in Chicago. Whether online or in person, we get you ready to go without the wait.",
+    "form": {
+      "visaButtonText": "Get Visa Options",
+      "eVisaButtonText": "Get E-Visa Options",
+      "validationAlert": "Please select all fields",
+      "labels": {
+        "citizenOf": "Citizen Of:",
+        "residingIn": "Residing in:",
+        "travelingTo": "Traveling to:"
+      }
+    },
+    "contact": {
+      "schedule": "CALL NOW | Mon-Fri: 8:30am-5:00pm Sat 10:00am - 2:00pm. Sun/Holidays: Closed"
+    },
+    "images": {
+      "glow": {
+        "src": "/landing/assets/green-glow-img.png",
+        "alt": "Green glow effect"
+      },
+      "hero": {
+        "src": "/landing/assets/hero-img.png",
+        "alt": "Illustration of a person with travel documents and a globe"
+      }
+    }
+  },
+  "processSection": {
+    "heading": {
+      "line1": "How the",
+      "line2": "Process Works"
+    },
+    "steps": [
+      {
+        "number": "1",
+        "title": "Submit Your Application",
+        "text": "Fill out our simple online form with your details."
+      },
+      {
+        "number": "2",
+        "title": "We Handle the Documents",
+        "text": "Send your documents to us, and our team works directly with the U.S. Passport Agency on your behalf."
+      },
+      {
+        "number": "3",
+        "title": "Receive Your Passport or Visa",
+        "text": "Get your passport or visa securely delivered, expedited in as little as 1–14 days."
+      }
+    ]
+  },
+  "travelServiceSection": {
+    "header": {
+      "heading": "Choose the Travel Service That Fits Your Needs",
+      "subheading": "Our travel specialists guide you through the entire process, ensuring your documents are delivered securely and quickly."
+    },
+    "images": {
+      "buttonIcon": "/landing/assets/btn-red.svg",
+      "visaBg": "/landing/assets/travel-service-visa-bg.png",
+      "evisaBg": "/landing/assets/travel-service-evisa-bg.png",
+      "passportBg": "/landing/assets/passport-bg-image.png"
+    },
+    "passportTab": {
+      "featured": {
+        "title": "New Passport"
+      },
+      "services": [
+        {
+          "line1": "Passport",
+          "line2": "Renewal"
+        },
+        {
+          "line1": "Child",
+          "line2": "passport"
+        },
+        {
+          "line1": "Lost",
+          "line2": "Passport"
+        },
+        {
+          "line1": "Passport",
+          "line2": "Name change"
+        },
+        {
+          "line1": "Second",
+          "line2": "Limited Passport"
+        }
+      ]
+    }
+  },
+  "doneRightSection": {
+    "content": {
+      "headingLines": [
+        "Expedited",
+        "Processing,",
+        "Done Right"
+      ],
+      "paragraph": "We can expedite your application in as little as 1–14 days — far faster than traditional government processing times of 5–7 weeks. Whether you need same-day service or a 2-week turnaround, we’ve got you covered."
+    },
+    "image": {
+      "src": "/landing/assets/done-right-img.png",
+      "alt": "A person happily holding their new passport"
+    }
+  },
+  "popularVisasSection": {
+    "header": {
+      "heading": "Most Popular Visas",
+      "subheading": "Intuitively visualize, review and manage your personal visa application instantly."
+    },
+    "visas": [
+      {
+        "title": "Indian Visa",
+        "imageSrc": "/landing/assets/indian-visa-bg.png",
+        "url": "/e-visas/india-evisa"
+      },
+      {
+        "title": "Brazil Visa",
+        "imageSrc": "/landing/assets/brazil-visa-bg.png",
+        "url": "/visas/brazil"
+      },
+      {
+        "title": "China Visa",
+        "imageSrc": "/landing/assets/china-visa-bg.png",
+        "url": "/visas/china"
+      },
+      {
+        "title": "Kenya Visa",
+        "imageSrc": "/landing/assets/kenya-visa-bg.png",
+        "url": "/e-visas/kenya-evisa"
+      }
+    ]
+  },
+  "whyChooseSection": {
+    "main": {
+      "heading": "Why Choose Chicago Passport & Visa?",
+      "paragraph": "Our passport specialists assist you through the process from beginning to end, delivering your travel documents securely and quickly.",
+      "button": {
+        "text": "Get Started Today",
+        "path": "/#hero_section"
+      }
+    },
+    "features": [
+      {
+        "title": "Expertise",
+        "description": "Our team of passport and travel experts is highly experienced in navigating the complex world of travel documentation. We handle every requirement with accuracy and care, so you can focus on your journey with peace of mind."
+      },
+      {
+        "title": "Speed & Efficiency",
+        "description": "We understand that travel plans can be time-sensitive. Our streamlined process ensures that your passport or visa is processed quickly, without unnecessary delays."
+      },
+      {
+        "title": "Security & Confidentiality",
+        "description": "Your personal information and documents are handled with the utmost confidentiality and protected using secure submission channels."
+      }
+    ]
+  },
+  "comparisonSection": {
+    "header": {
+      "headingLines": [
+        "Get Faster Turnaround",
+        "and Better Service Than the Post Office"
+      ],
+      "subheading": "Same-day and next-day services available, open 7 days a week, including holidays."
+    },
+    "table": {
+      "headers": {
+        "ours": {
+          "logoSrc": "/landing/assets/logo.svg",
+          "logoAlt": "Chicago Passport & Visa Logo"
+        },
+        "theirs": "Post Office"
+      },
+      "icons": {
+        "check": {
+          "src": "/landing/assets/check-icon.svg",
+          "alt": "Checkmark icon"
+        },
+        "cross": {
+          "src": "/landing/assets/x-icon.svg",
+          "alt": "Cross icon"
+        }
+      },
+      "rows": [
+        {
+          "label": "Processing Times",
+          "ours": "Guaranteed",
+          "theirs": "Not Guaranteed"
+        },
+        {
+          "label": "Next Business Day",
+          "ours": "24 Hours",
+          "theirs": "Not Offered"
+        },
+        {
+          "label": "Urgent",
+          "ours": "3 – 5 Business Days",
+          "theirs": "Not Offered"
+        },
+        {
+          "label": "Express",
+          "ours": "5 – 7 Business Days",
+          "theirs": "Not Offered"
+        },
+        {
+          "label": "Rush",
+          "ours": "7 – 8 Business Days",
+          "theirs": "10 – 13 Business Days"
+        },
+        {
+          "label": "Standard",
+          "ours": "8 – 11 Business Days",
+          "theirs": "10 – 15 Business Days"
+        },
+        {
+          "label": "Case Manager",
+          "ours": "Caring Specialist",
+          "theirs": "Not Offered"
+        },
+        {
+          "label": "Convenience",
+          "ours": "Simplicity",
+          "theirs": "Hassle, Long Lines"
+        },
+        {
+          "label": "Phone Support",
+          "ours": "Speak to a Real Person",
+          "theirs": "Updates via Mail"
+        },
+        {
+          "label": "White Glove Handling",
+          "ours": "VIP Premium",
+          "theirs": "Not Offered"
+        }
+      ]
+    },
+    "button": {
+      "text": "Start my Application",
+      "path": "/apply"
+    }
+  },
+  "testimonialsSection": {
+    "header": {
+      "headingLines": [
+        "Hear Why Customers Choose",
+        "Chicago Passport & Visa Services",
+        "Every Time"
+      ]
+    },
+    "images": {
+      "stars5": {
+        "src": "/landing/assets/starts-img.svg",
+        "alt": "5 out of 5 stars rating"
+      },
+      "stars4": {
+        "src": "/landing/assets/stars-4-img.svg",
+        "alt": "4 out of 5 stars rating"
+      }
+    },
+    "reviews": [
+      {
+        "name": "Sarah L.",
+        "text": "Incredibly fast and professional service. They made a stressful process completely seamless. Highly recommended for anyone needing a passport in a hurry!",
+        "stars": 5
+      },
+      {
+        "name": "Michael B.",
+        "text": "The team was so helpful and answered all my questions. I got my visa for Brazil much faster than I expected. Thank you!",
+        "stars": 5
+      },
+      {
+        "name": "Jennifer P.",
+        "text": "Excellent communication throughout the entire process. While it took a day longer than the minimum estimate, the service was still very reliable.",
+        "stars": 4
+      },
+      {
+        "name": "David R.",
+        "text": "I used their service for my child's passport and it was a lifesaver. Everything was handled perfectly. Worth every penny for the peace of mind.",
+        "stars": 5
+      },
+      {
+        "name": "Emily K.",
+        "text": "A truly five-star experience. From the initial call to receiving my renewed passport, everything was top-notch. I'll be back for any future travel document needs.",
+        "stars": 5
+      }
+    ]
+  },
+  "imagePassportSection": {
+    "image": {
+      "src": "/landing/assets/image-passport.png",
+      "alt": "A decorative image of a passport and travel documents on a map"
+    }
+  },
+  "contactPage": {
+    "header": {
+      "heading": "Get In Touch With Us Today!",
+      "paragraph": "We are registered and authorized by the US Government and foreign embassies to expedite your US passport and foreign visa. We charge an additional fee to expedite your application in 1-10 days."
+    },
+    "contactInfo": [
+      {
+        "icon": {
+          "src": "/landing/assets/navigation-icon.svg",
+          "alt": "Navigation icon"
+        },
+        "text": "180 N La Salle Street, Suite 106, Chicago, IL 60601"
+      },
+      {
+        "icon": {
+          "src": "/landing/assets/phone-contact-icon.svg",
+          "alt": "Phone icon"
+        },
+        "text": "(312) 525-3278",
+        "href": "tel:312-525-3278"
+      },
+      {
+        "icon": {
+          "src": "/landing/assets/contact-email-icon.svg",
+          "alt": "Email icon"
+        },
+        "text": "info@chicagopassport-visa.com",
+        "href": "mailto:info@chicagopassport-visa.com"
+      }
+    ],
+    "form": {
+      "labels": {
+        "name": "Name*",
+        "email": "Email*",
+        "phone": "Phone*",
+        "message": "Message*"
+      },
+      "buttonText": "Submit"
+    }
+  },
+  "visaProcessPage": {
+    "header": {
+      "heading": "How Our Visa & Passport Process Works",
+      "paragraph": "Applying for a U.S. passport or visa doesn’t have to be stressful. We’ve designed a simple, secure, and fast 3-step process to help you get your documents without the hassle of long lines or confusing paperwork."
+    },
+    "steps": [
+      {
+        "id": 1,
+        "bg": "#122241",
+        "top": "50px",
+        "textColor": "white",
+        "img": "/landing/assets/visa-process-img.png",
+        "title": "Start Your <br /> Application",
+        "paragraphs": [
+          "Begin by completing our quick and secure online application form."
+        ],
+        "list": [
+          "Enter your personal details, travel information, and any required background information.",
+          "Our system is designed to make the process simple, guiding you step by step.",
+          "You’ll also receive a checklist of supporting documents needed for your application."
+        ],
+        "final": "👉 This step usually takes just 10–15 minutes to complete."
+      },
+      {
+        "id": 2,
+        "bg": "#c7e6fd",
+        "top": "100px",
+        "textColor": "#1c1c1c",
+        "img": "/landing/assets/step-2-img.png",
+        "title": "Submit Your <br /> Documents",
+        "paragraphs": [
+          "Once your application is complete, upload or deliver your required documents for verification.",
+          "Our team reviews each submission carefully to ensure accuracy and compliance with all government requirements before proceeding to the next stage."
+        ]
+      },
+      {
+        "id": 3,
+        "bg": "#f8f9fd",
+        "top": "150px",
+        "translateY": "50px",
+        "textColor": "#1c1c1c",
+        "img": "/landing/assets/step-3-img.png",
+        "title": "Receive Your <br /> Passport or Visa",
+        "paragraphs": [
+          "After approval, you’ll receive your passport or visa quickly and securely — either by mail or in person, depending on your preference.",
+          "We’ll notify you at every stage so you know exactly when your documents are ready for collection."
+        ]
+      }
+    ]
+  },
+  "contactUsServicesSection": {
+    "heading": "Contact Us for Various Chicago Passport Services",
+    "paragraph": "Chicago Passport & Visa Services, registered with U.S. Passport Agencies under the name A Rush Passport & Visa Services, is a private company authorized to provide hand-carry commercial courier services for U.S. citizens in need of passports. From taking passport photos to assisting with document preparation, we offer a full suite of services designed to streamline the passport application process and support U.S. citizens in obtaining their passports quickly and securely.",
+    "button": {
+      "text": "Contact Us today",
+      "path": "/contact-us"
+    }
+  },
+  "mapSection": {
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5940.823185480798!2d-87.62955128107495!3d41.88400455917151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cb097822e2d%3A0x3cf90da74937a9dd!2sChicago%20Passport%20%26%20Visa%20Services!5e0!3m2!1shr!2sba!4v1760001107843!5m2!1shr!2sba"
+  },
+  "ukEtaVisaPage": {
+    "country": "UK ETA",
+    "hero_title": "UK ETA Visa",
+    "hero_description": "The ETA is a fast online travel authorization required for travelers visiting the United Kingdom for tourism or business. It replaces the old paper-based system and is designed to improve border security while making travel easier for eligible visitors. Apply online in minutes and receive your approval by email.",
+    "image": {
+      "src": "/landing/assets/uk-img.png",
+      "alt": "Iconic view of the UK"
+    },
+    "requirements": [
+      {
+        "section_title": "Tourist E-Visa",
+        "content": {
+          "text": "For travelers visiting the United Kingdom for tourism:",
+          "list": [
+            "Scanned Passport",
+            "Digital Passport Photograph - meeting e-visa (ETA) specifications"
+          ]
+        }
+      },
+      {
+        "section_title": "Business E-Visa",
+        "content": {
+          "text": "For travelers visiting the United Kingdom for business purposes:",
+          "list": [
+            "Scanned Passport",
+            "Digital Passport Photograph – per e-visa (ETA) requirements"
+          ]
+        }
+      }
+    ]
+  },
+  "singlePageArchiveComponent": {
+    "buttonText": "Get Started Today",
+    "selectTypeTitles": {
+      "passport": "Select Passport Type",
+      "visa": "Select Visa Type that you Need"
+    }
+  },
+  "usPassportPage": {
+    "title": "Everything You Need for a US Passport",
+    "description": "We offer same-day passports, as well as passports in 3-5 days, 5-7 days, 7-10 days, 10-14 days, and 3-4 weeks.",
+    "image": {
+      "src": "/landing/assets/us-passport-img.png",
+      "alt": "Image of a US Passport and travel documents"
+    },
+    "passportSections": [
+      {
+        "title": "New Passport",
+        "description": "Whether your passport expired or you’ve never had a passport, everyone will need to apply for a new US passport at some point. For new US passport services in Chicago, choose Chicago Passport & Visa Services.",
+        "accordions": [
+          {
+            "title": "Requirements for First US Passport Application",
+            "text": "<ul><li>You must be applying for the first time.</li><li>Your previous passport was issued more than 15 years ago.</li><li>Your previous passport was issued when you were under 16 years of age.</li></ul>"
+          },
+          {
+            "title": "How to Apply",
+            "text": "<p><a href=\"https://pptform.state.gov/?Submit2=Complete+Online+%26+Print&AspxAutoDetectCookieSupport=1\">DS-11 Online Application</a></p><ul><li>Do not sign the application until instructed to do so.</li></ul>"
+          },
+          {
+            "title": "Government & Service Fees",
+            "text": "<ul><li>A personal check or money order made payable to the “US Department of State” in the amount of $190.00.</li><li>If you are applying for a US passport with regular services, the check should be made out in the amount of $190.00. Follow this link for the state fee.</li><li>Temporary/starter checks or checks without a name or address will NOT be accepted.</li></ul><p>Chicago Passport & Visa Services fees will be applied in addition to the government fees.</p>"
+          },
+          {
+            "title": "Additional Requirements for New US Passports",
+            "text": "<p><a href=\"#\">Passport Photos</a> | <a href=\"#\">Proof of US Citizenship</a> | <a href=\"#\">Proof of Identity</a> | <a href=\"#\">Letter of Authorization</a> | <a href=\"#\">Service Order Form</a> | <a href=\"#\">Must Appear in Person</a></p>"
+          }
+        ]
+      },
+      {
+        "title": "Passport Renewal",
+        "description": "Renew your passport in Chicago with Chicago Passport & Visa Services. We offer emergency and rush passport services, so if you’re looking to expedite your passport, we have all the same-day solutions for you.",
+        "accordions": [
+          {
+            "title": "Requirements for US Passport Renewal",
+            "text": "<p>Your US Passport can only be renewed if ALL these conditions are met.</p><ul><li>You still have your US passport in your possession.</li><li>Your previous US passport was issued when you were 16 years or over.</li><li>Your previous US passport was issued no more than 15 years ago.</li><li>Your US passport is undamaged.</li></ul>"
+          },
+          {
+            "title": "How to Apply",
+            "text": "<a href=\"https://pptform.state.gov/?Submit2=Complete+Online+%26+Print&AspxAutoDetectCookieSupport=1\"/>DS-82 Online Application</a><ul><li>Do not sign the application until instructed to do so.</li></ul>"
+          },
+          {
+            "title": "Changed Your Name Due to Marriage or Divorce?",
+            "text": "<p>In the event that you changed your name due to marriage or divorce, you will need to bring in a certified copy of your marriage certificate or a court decree that shows your name change.</p>"
+          },
+          {
+            "title": "Apply By Mail",
+            "text": "<p>If you are processing your passport application with rush or regular mail, fill out two letters of authorization and Service Order Forms and send it along with the required supporting documents.</p>"
+          },
+          {
+            "title": "Government & Services Fees",
+            "text": "<ul><li>Personal check or money order made payable to the “US Department of State” in the amount of $190.00.</li><li>If you are applying for a US passport with regular services, the check should be made out in the amount of $190.00. <a href=\"https://travel.state.gov/content/travel/en/passports.html\"> Follow this link for the state fee.</a></li><li>Temporary/starter checks or checks without a name or address will NOT be accepted.</li></ul><p>Chicago Passport & Visa Services fees will be applied in addition to the government fees.</p>"
+          },
+          {
+            "title": "Additional Requirements for US Passport Renewals",
+            "text": "<p><a href=\"#\">Passport Photos</a> | <a href=\"#\">Proof of US Citizenship</a> | <a href=\"#\">Proof of Identity</a> | <a href=\"#\">Letter of Authorization</a> | <a href=\"#\">Service Order Form</a> | <a href=\"#\">Must Appear in Person</a></p>"
+          }
+        ]
+      },
+      {
+        "title": "Child Passport",
+        "description": "Since a child’s passport cannot be renewed, a minor will have to apply for a new one each time. If the child is 16 years or older, they can apply for a new adult passport.",
+        "accordions": [
+          {
+            "title": "Requirements for US Passport for Minors",
+            "text": "<ul><li>Applicants must be under the age of 16.</li><li>All children, including newborns, must have their own passport.</li><li>An appearance by both parents and the minor at a passport acceptance office is required and is a mandatory step of your child’s passport order. If only one parent can appear, a special letter of consent (form DS-3053) must be completed and notarized along with the copy of the parent’s ID.</li></ul>"
+          },
+          {
+            "title": "How to Apply",
+            "text": "<a href=\"https://pptform.state.gov/?Submit2=Complete+Online+%26+Print&AspxAutoDetectCookieSupport=1\" target=\"_blank\">DS-11 Online Application</a><ul><li>Do not sign the application until instructed to do so.</li></ul>"
+          },
+          {
+            "title": "Proof of Identity",
+            "text": "<ul><li>Both parents’ driver’s licenses with photo or passport.</li></ul>"
+          },
+          {
+            "title": "Government & Services Fees",
+            "text": "<ul><li>A personal check or money order made payable to the “US Department of State” in the amount of $160.00 (expedite processing).</li><li>If you are applying for a US passport with regular services, the check should be made out to the “US Department of State” in the amount of $160.00. <a href=\"https://travel.state.gov/content/travel/en/passports.html\" target=\"_blank\">Follow this link for the state fee.</a></li><li>Temporary/starter checks or checks without name and address will NOT be accepted.</li></ul><p>Chicago Passport & Visa Services fees will be applied in addition to the government fees.</p>"
+          },
+          {
+            "title": "Additional Requirements for US Passports for Children",
+            "text": "<p><a href=\"#\">Passport Photos</a> | <a href=\"#\">Proof of US Citizenship</a> | <a href=\"#\">Proof of Identity</a> | <a href=\"#\">Letter of Authorization</a> | <a href=\"#\">Service Order Form</a> | <a href=\"#\">Must Appear in Person</a></p>"
+          }
+        ]
+      },
+      {
+        "title": "Lost Passport",
+        "description": "If your passport is lost, stolen, or damaged, you should replace it quickly. Chicago Passport & Visa Services offers lost passport renewal solutions so you have a replacement passport in time for your next trip. Also, canceling a lost passport quickly ensures it can’t be used if it falls into the wrong hands.",
+        "accordions": [
+          {
+            "title": "Requirements to Replace a Passport (Lost/Stolen/Damaged)",
+            "text": "Lost passports are considered by the passport agency to be very serious. The loss stays on your record, so we encourage you to make every effort to find your passport even after a new passport is issued. When, or if, you find the old passport, it is important to return both passports to the US Passport Service to have the lost passport removed from your record."
+          },
+          {
+            "title": "How to Apply",
+            "text": "<a href=\"https://pptform.state.gov/?Submit2=Complete+Online+%26+Print&AspxAutoDetectCookieSupport=1\" target=\"_blank\">DS-11 Online Application</a><ul><li>Do not sign the application until instructed to do so.</li></ul>"
+          },
+          {
+            "title": "Statement Regarding a Lost or Stolen Passport",
+            "text": "<p>Applicant needs to submit a completed DS-64 Lost or Stolen Form.</p><ul><li>You’ll need to make sure you give details on your efforts to recover your lost passport.</li></ul>"
+          },
+          {
+            "title": "Government & Service Fees",
+            "text": "<ul><li>A personal check or money order made payable to the “US Department of State” in the amount of $170.00.</li><li>If you are applying for a US passport with regular services, the check should be made out to the “US Department of State” in the amount of $110.00.</li><li>Temporary/starter checks or checks without a name or address with NOT be accepted.</li></ul><p>Chicago Passport & Visa Services fees will be applied in addition to the government fees.</p>"
+          },
+          {
+            "title": "Additional Requirements for Lost US Passports",
+            "text": "<p><a href=\"#\">Passport Photos</a> | <a href=\"#\">Proof of US Citizenship</a> | <a href=\"#\">Proof of Identity</a> | <a href=\"#\">Letter of Authorization</a> | <a href=\"#\">Service Order Form</a> | <a href=\"#\">Must Appear in Person</a></p>"
+          }
+        ]
+      },
+      {
+        "title": "Passport Name Change",
+        "description": "Passports must reflect the correct name of the passport holder. Therefore, it’s essential that you receive a new passport due to marriage, divorce, adoption, or other legal reasons from Chicago Passport & Visa Services.",
+        "accordions": [
+          {
+            "title": "Requirements for US Passport Name Change",
+            "text": "In order to change the name on your passport, you must have an original court-ordered name change and an original marriage certificate or divorce decree. You must go through a US passport renewal process in order to change your name."
+          },
+          {
+            "title": "How to Apply",
+            "text": "<a href=\"https://pptform.state.gov/?Submit2=Complete+Online+%26+Print&AspxAutoDetectCookieSupport=1\" target=\"_blank\">DS-5504 Online Application</a><ul><li>Do not sign the application until instructed to do so.</li></ul>"
+          },
+          {
+            "title": "Original Court Documents",
+            "text": "<p>Please provide the original court document that changes your name. For example, marriage certificate, divorce, or legal name change document.</p>"
+          },
+          {
+            "title": "Changed Your Name Due to Marriage or Divorce?",
+            "text": "<p>In the event that you changed your name due to marriage or divorce, you will need to bring in a certified copy of your marriage certificate or a court decree that shows your name change.</p>"
+          },
+          {
+            "title": "Applying By Mail?",
+            "text": "<p>If you are processing your passport application with rush or regular mail, fill out two letters of authorization and Service Order Forms and send them along with the documents.</p>"
+          },
+          {
+            "title": "Government & Service Fees",
+            "text": "<ul><li>A personal check or money order made payable to the “US Department of State” in the amount of $170.00.</li><li>If you are applying for a US passport with regular services, the check should be made out to the “US Department of State” in the amount of $110.00.</li><li>Temporary/starter checks or checks without a name or address will NOT be accepted.</li></ul><p>Chicago Passport & Visa Services fees will be applied in addition to the government fees.</p>"
+          },
+          {
+            "title": "Additional Requirements for US Passport Name Change",
+            "text": "<p><a href=\"#\">Passport Photos</a> | <a href=\"#\">Proof of US Citizenship</a> | <a href=\"#\">Proof of Identity</a> | <a href=\"#\">Letter of Authorization</a> | <a href=\"#\">Service Order Form</a> | <a href=\"#\">Must Appear in Person</a></p>"
+          }
+        ]
+      },
+      {
+        "title": "Second Limited Passport",
+        "description": "US citizens are allowed to have two different passports: a normal 10-year passport and a second limited passport. Second limited passports allow holders to travel internationally while processing a US visa. With these specific passports, holders can also travel to countries that don’t allow entry to people to visit if their normal passport has stamps from enemy countries.",
+        "accordions": [
+          {
+            "title": "How to Apply",
+            "text": "<a href=\"https://pptform.state.gov/?Submit2=Complete+Online+%26+Print&AspxAutoDetectCookieSupport=1\" target=\"_blank\">DS-82 Online Application</a><ul><li>Do not sign the application until instructed to do so.</li></ul>"
+          },
+          {
+            "title": "Statement Regarding Second Limited Passport",
+            "text": "<ul><li>You must submit a completed and signed statement of second limited passport.</li></ul>"
+          },
+          {
+            "title": "Business Letter",
+            "text": "<ul><li>If you are traveling on business and requesting a second limited passport, you must provide a valid reason for a second limited passport on company letterhead.</li></ul>"
+          },
+          {
+            "title": "Government & Service Fees",
+            "text": "<ul><li>A personal check or money order made payable to the “US Department of State” in the amount of $170.00.</li><li>Temporary/starter checks or checks without a name or address will NOT be accepted.</li></ul><p>Chicago Passport & Visa Services fees will be applied in addition to the government fees.</p>"
+          },
+          {
+            "title": "Additional Requirements for US Passport Name Change",
+            "text": "<p><a href=\"#\">Passport Photos</a> | <a href=\"#\">Proof of US Citizenship</a> | <a href=\"#\">Proof of Identity</a> | <a href=\"#\">Letter of Authorization</a> | <a href=\"#\">Service Order Form</a> | <a href=\"#\">Must Appear in Person</a></p>"
+          }
+        ]
+      },
+      {
+        "title": "Additional Requirements for US Passports",
+        "description": "",
+        "accordions": [
+          {
+            "title": "Passport Photos",
+            "text": "<ul><li>Photo should be 2” x 2” on a white background.</li><li>Photo should not be older than one month.</li></ul>"
+          },
+          {
+            "title": "Current US Passport",
+            "text": "<ul><li>You must submit your current undamaged passport.</li><li>The expired passport will be returned to you along with the new passport.</li></ul>"
+          },
+          {
+            "title": "Proof of US Citizenship",
+            "text": "<p>Please provide an original or a certified copy of one of the following:</p><ul><li>Certified birth certificate (long form, not abstract).</li><li>Consulate report of birth abroad certificate.</li><li>Naturalization Certificate.</li><li>A certified copy of birth certificate that has the registrar’s raised, embossed, impressed, or multicolored seal.</li></ul>"
+          },
+          {
+            "title": "Proof of Identity",
+            "text": "<p>Please provide an original or a certified copy of one of the following:</p><ul><li>Valid driver’s license or state ID.</li><li>Government identification or valid military identification.</li></ul>"
+          },
+          {
+            "title": "Letter of Authorization",
+            "text": "<ul><li>Fully completed letter of authorization to authorize Chicago Passport & Visa Services to do the service for you.</li></ul>"
+          },
+          {
+            "title": "Service Order Form",
+            "text": "<ul><li>Please fill out the form and bring it to our office with all the required supporting documents.</li></ul>"
+          },
+          {
+            "title": "Must Appear in Person",
+            "text": "<p>To apply for a new passport, you must come to our office in person. After completing all the required paperwork, you will be sent to a passport acceptance facility. There, they will put all your paperwork, including your check and original documents, in a sealed package and hand it back to you, which then needs to be dropped off at our office to start the process.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "headerSection": {
+    "topBar": {
+      "announcement": "WALK-INS WELCOME - 180 N LASALLE ST #106, CHICAGO, IL 60601, USA",
+      "contact": {
+        "phone": {
+          "text": "312-925-3278",
+          "href": "tel:312-925-3278",
+          "icon": {
+            "src": "/landing/assets/phone-icon.svg",
+            "alt": "Phone"
+          }
+        },
+        "email": {
+          "text": "INFO@CHICAGOPASSPORT-VISA.COM",
+          "href": "mailto:info@chichagopassport-visa.com",
+          "icon": {
+            "src": "/landing/assets/email-icon.svg",
+            "alt": "Email"
+          }
+        }
+      }
+    },
+    "mainNav": {
+      "logo": {
+        "src": "/landing/assets/logo.svg",
+        "alt": "Chicago Passport & Visa Logo"
+      },
+      "accountIcon": {
+        "src": "/landing/assets/account-icon.svg",
+        "alt": "User Account"
+      },
+      "links": {
+        "usPassport": "US Passport",
+        "visas": "Visas",
+        "eVisas": "E-Visas",
+        "ukEtaVisa": "UK ETA Visa",
+        "process": "Process",
+        "contact": "Contact us"
+      }
+    }
+  },
+  "footerSection": {
+    "about": {
+      "description": "Chicago Passport & Visa Services – Fast, reliable, and secure travel document solutions since day one."
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "hours": [
+        "Mon-Fri: 8:30am-5:00pm",
+        "Sat 10:00am - 2:00pm",
+        "Sunday by Appointment Only"
+      ]
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "usPassport": "US Passport",
+      "visas": "Visas",
+      "eVisas": "E-Visas",
+      "ukEtaVisa": "UK ETA Visa",
+      "blog": "Blog"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "info@chicagopassport-visa.com",
+      "phone": "(312) 925-3278",
+      "location": "180 N La Salle Street, Suite 106, Chicago, IL 60601"
+    },
+    "bottomBar": {
+      "copyright": "Copyright By © Chicago Passport & Visa Expedite 2025. All Rights Reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "refund": "Refund Policy"
+    }
+  },
+  "visas": [
+    {
+      "id": 1,
+      "slug": "china",
+      "image": "/landing/assets/china-img.png",
+      "country": "China Travel Visas"
+    },
+    {
+      "id": 2,
+      "slug": "brazil",
+      "image": "/landing/assets/brazil-img.png",
+      "country": "Brazil Visa"
+    },
+    {
+      "id": 3,
+      "slug": "ghana",
+      "image": "/landing/assets/ghana-img.png",
+      "country": "Ghana Visa"
+    },
+    {
+      "id": 4,
+      "slug": "nigeria",
+      "image": "/landing/assets/nigeria-img.png",
+      "country": "Nigeria Visa"
+    },
+    {
+      "id": 5,
+      "slug": "russia",
+      "image": "/landing/assets/russia-img.png",
+      "country": "Russia Visa"
+    },
+    {
+      "id": 6,
+      "slug": "uk",
+      "image": "/landing/assets/uk-img.png",
+      "country": "United Kingdom Visa"
+    }
+  ],
+  "evisas": [
+    {
+      "id": 1,
+      "slug": "vietnam-evisa",
+      "image": "/landing/assets/vietnam-img.png",
+      "country": "Vietnam eVisa"
+    },
+    {
+      "id": 2,
+      "slug": "india-evisa",
+      "image": "/landing/assets/india-img.png",
+      "country": "India eVisa"
+    },
+    {
+      "id": 3,
+      "slug": "brazil-evisa",
+      "image": "/landing/assets/brazil-img.png",
+      "country": "Brazil eVisa"
+    },
+    {
+      "id": 4,
+      "slug": "kenya-evisa",
+      "image": "/landing/assets/kenya-img.png",
+      "country": "Kenya eVisa"
+    },
+    {
+      "id": 5,
+      "slug": "cambodia-evisa",
+      "image": "/landing/assets/cambodia-img.png",
+      "country": "Cambodia eVisa"
+    }
+  ]
+}

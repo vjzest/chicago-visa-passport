@@ -1,0 +1,15 @@
+export type ServiceKeys =
+  | "stats"
+  | "cases"
+  | "forms"
+  | "promoCodes"
+  | "serviceLevel"
+  | "serviceTypes"
+  | "statuses"
+  | "reports"
+  | "faq"
+  | "roles"
+  | "configuration"
+  | "logs"
+  | "shippingLocations"
+  | "queries";

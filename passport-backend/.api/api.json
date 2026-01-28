@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "nmi-developer-portal",
+      "source": "@nmi-developer-portal/v1.0#5ajqd2alwz31vd2",
+      "integrity": "sha512-yZYHr+CUTrJK/Vaf8sKM+BQYZsECbjwKK4WJ7jH9Fo4M5hVYVS23rvyx/t31oesgvl1fSAkE6+i8jjU3ydHXMg==",
+      "installerVersion": "6.1.2"
+    }
+  ]
+}

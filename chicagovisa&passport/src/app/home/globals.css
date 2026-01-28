@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+h1,
+h2 {
+  /* font-family: Space_Grotesk; */
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  background-color: #144066;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 24px;
+  border-radius: 4px;
+}
+
+/* Keep dropdown open on hover */
+.NavigationMenuItem:hover>.NavigationMenuContent {
+  animation: none;
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+/* Animation for dropdown */
+.NavigationMenuContent {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  animation: enterFromTop 0.2s ease;
+}
+
+@keyframes enterFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional: Add transition for smooth hover effect */
+.NavigationMenuTrigger {
+  transition: all 0.2s ease;
+}
+
+/* Optional: Style adjustments for active state */
+.NavigationMenuItem:hover .NavigationMenuTrigger {
+  color: rgb(37, 99, 235);
+  /* blue-600 */
+}
+
+.bgcolor {
+  background-color: #f2faff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out;
+}
+
+.rounded-class {
+  border-radius: 10px;
+}
+
+.ordered-list {
+  list-style: decimal;
+}
+
+.unordered-list {
+  list-style: disc;
+}

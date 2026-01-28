@@ -1,0 +1,21 @@
+.doc-instruction-card2 a,
+.doc-instruction-card a {
+  color: -webkit-link; /* Default link color (usually blue) */
+  text-decoration: underline; /* Underlined by default */
+  cursor: pointer;
+}
+
+.doc-instruction-card2 a:visited,
+.doc-instruction-card a:visited {
+  color: purple; /* Default visited link color */
+}
+
+.doc-instruction-card2 a:hover,
+.doc-instruction-card a:hover {
+  text-decoration: none; /* Often removes underline on hover */
+}
+
+.doc-instruction-card2 a:active,
+.doc-instruction-card a:active {
+  color: red; /* Default active (clicked) link color */
+}

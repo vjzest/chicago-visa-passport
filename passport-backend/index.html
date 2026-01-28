@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Confirmation</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 36rem;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e5e5e5;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+      }
+      .header {
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        font-size: 1.875rem;
+        font-weight: 300;
+        color: #4a5568;
+      }
+      .logo span {
+        color: #ed8936;
+      }
+      .order-confirmation {
+        font-size: 0.875rem;
+        color: #3182ce;
+        font-weight: 500;
+      }
+      .case-details div {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .case-details p {
+        font-size: 0.875rem;
+        color: #4a5568;
+      }
+      .blue-text {
+        color: #3182ce;
+      }
+      .black-text {
+        color: #000;
+      }
+      .message {
+        background-color: #777777;
+        padding: 0.5rem;
+        color: white;
+        border-radius: 0.375rem;
+      }
+      .message p {
+        margin: 1%;
+      }
+      .next-steps {
+        margin-top: 1.5rem;
+      }
+      .next-steps p:first-child {
+        font-size: 1.125rem;
+        color: #2d3748;
+        font-weight: 600;
+      }
+      .button {
+        display: block;
+        width: 95%;
+        background-color: #48bb78;
+        color: white;
+        text-align: center;
+        padding: 0.75rem;
+        border-radius: 0.375rem;
+        text-decoration: none;
+        margin-top: 1rem;
+      }
+      .help-section {
+        margin-top: 1.5rem;
+        display: flex;
+        gap: 1rem;
+        height: 11rem;
+      }
+      .help-box {
+        width: 40%;
+        background-color: #c9e3f5;
+        border-radius: 0.375rem;
+        padding: 1rem 2rem 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .need-help p {
+        margin: 0%;
+        margin-top: -4px;
+      }
+      .help-box2 {
+        width: 40%;
+        background-color: #c9e3f5;
+        border-radius: 0.375rem;
+        padding: 1rem 2rem 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .help-box h3,
+      .help-box2 h3 {
+        height: 30%;
+        font-size: 16px;
+        margin: 0%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        color: #3182ce;
+        font-weight: 600;
+      }
+      /* .help-box div, .help-box2 div {
+            
+        } */
+      .need-help {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .help-box button {
+        display: flex;
+        margin-top: 4px;
+        justify-content: center;
+        background-color: #3182ce;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 0.375rem;
+        border: none;
+        cursor: pointer;
+      }
+      .charge-summary {
+        margin-top: 1.5rem;
+        font-size: 0.875rem;
+        color: #4a5568;
+      }
+      .view-receipt {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+      }
+      p {
+        margin: 0%;
+      }
+      .view-receipt button {
+        background-color: #3182ce;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 0.375rem;
+        border: none;
+        cursor: pointer;
+      }
+      .footer {
+        margin-top: 1.5rem;
+        text-align: center;
+        font-size: 0.75rem;
+        color: #718096;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 class="logo">JET <span>PASSPORTS</span></h2>
+        <p class="order-confirmation">ORDER CONFIRMATION</p>
+      </div>
+
+      <div class="case-details">
+        <div class="intro">
+          <p>
+            Hello
+            <span class="blue-text"
+              >${caseData.billingInfo.cardHolderName}</span
+            >
+          </p>
+          <p>Case ID: <span class="blue-text">${caseData._id}</span></p>
+        </div>
+        <p>
+          Passport Type:
+          <span class="black-text"
+            >${caseData.applications[0].passportInformation.passportType ||
+            'PASSPORT RENEWAL'}</span
+          >
+        </p>
+        <p>
+          Service Type:
+          <span class="black-text"
+            >${caseData.caseInfo.serviceLevel.serviceLevel} -
+            ${caseData.caseInfo.serviceLevel.time}</span
+          >
+        </p>
+      </div>
+
+      <div class="message">
+        <p>
+          Your order has been placed and confirmed. Please proceed to the next
+          steps below in order to submit the necessary documentation required
+          for a New Passport. We have passport specialists standing by to assist
+          you when you're ready to review your documents before shipping them in
+          for processing.
+        </p>
+      </div>
+
+      <div class="next-steps">
+        <p>Next Steps:</p>
+        <p>
+          Please click on the link below to access and complete all the
+          necessary forms that we specially prepared for
+          <span style="font-weight: 600"
+            >${caseData.billingInfo.cardHolderName}</span
+          >
+        </p>
+
+        <a href="#" class="button"
+          >CLICK HERE TO Access Required Forms and Instructions</a
+        >
+        <a href="#" class="button"
+          >CLICK HERE Shipping Address and Instructions</a
+        >
+      </div>
+
+      <div class="help-section">
+        <div class="help-box">
+          <h3>NEED HELP ?</h3>
+          <div class="need-help">
+            <p>
+              Please click on the button below to request a callback from a
+              passport specialist ${caseData.caseInfo.caseManager.firstName}
+              ${caseData.caseInfo.caseManager.lastName} during our normal
+              business hours.
+            </p>
+            <button>REQUEST A CALL</button>
+          </div>
+        </div>
+
+        <div class="help-box2">
+          <h3>CONTACT INFORMATION</h3>
+          <div class="need-help">
+            <p>877-868-2323</p>
+            <p>Mon-Fri (9AM - 6PM EST)</p>
+            <p>Sat-Sun (Closed)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="charge-summary">
+        <p>
+          Charge Summary: Your ${caseData.billingInfo.cardNumber.slice(0,1) ===
+          '4' ? 'Visa' : 'Card'} ending in
+          ${caseData.billingInfo.cardNumber.slice(-4)} has been charged
+          $${caseData.caseInfo.serviceLevel.price}
+        </p>
+        <p>
+          (This charge does not include the Government & Acceptance Agent fees
+          that are or will be paid by you to US Department of State)
+        </p>
+      </div>
+
+      <div class="view-receipt">
+        <button>VIEW/PRINT YOUR RECEIPT</button>
+      </div>
+
+      <div class="footer">
+        <p>We look forward to serving you</p>
+        <p>Thank you, Jet Passports Service</p>
+      </div>
+    </div>
+  </body>
+</html>

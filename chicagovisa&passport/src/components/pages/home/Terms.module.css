@@ -1,0 +1,250 @@
+/* Container */
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+overflow-x: auto;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+/* Headings */
+.content-wrapper h1,
+.content-wrapper h2,
+.content-wrapper h3,
+.content-wrapper h4,
+.content-wrapper h5,
+.content-wrapper h6 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.content-wrapper h1 {
+  font-size: 2rem;
+}
+
+.content-wrapper h2 {
+  font-size: 1.75rem;
+}
+
+.content-wrapper h3 {
+  font-size: 1.5rem;
+}
+
+.content-wrapper h4 {
+  font-size: 1.25rem;
+}
+
+.content-wrapper h5 {
+  font-size: 1rem;
+}
+
+.content-wrapper h6 {
+  font-size: 0.875rem;
+}
+
+/* Paragraphs */
+.content-wrapper p {
+  margin-bottom: 1rem;
+  white-space: pre-line; /* Preserves line breaks */
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Line Breaks */
+.content-wrapper br {
+  display: block;
+  content: "";
+  margin-top: 0.5rem;
+}
+
+/* Lists */
+.content-wrapper ul,
+.content-wrapper ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.content-wrapper ul {
+  list-style-type: disc !important;
+}
+
+.content-wrapper ol {
+  list-style-type: decimal !important;
+}
+
+.content-wrapper li {
+  margin-bottom: 0.5rem;
+}
+
+/* Nested Lists */
+.content-wrapper ul ul,
+.content-wrapper ol ol,
+.content-wrapper ul ol,
+.content-wrapper ol ul {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  list-style-type: circle !important;
+}
+
+/* Blockquote */
+.content-wrapper blockquote {
+  border-left: 4px solid #006dcc;
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+  margin: 1rem 0;
+  background-color: #f9f9f9;
+}
+
+/* Tables */
+.content-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+
+.content-wrapper th,
+.content-wrapper td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.content-wrapper th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.content-wrapper tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.content-wrapper tr:hover {
+  background-color: #f1f1f1;
+}
+
+.content-wrapper .table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Links */
+.content-wrapper a {
+  color: #006dcc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.content-wrapper a:hover {
+  text-decoration: underline;
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #222222;
+  margin-top: 2rem;
+}
+
+/* Verbiage Section */
+.verbiage {
+  font-size: 0.9375rem;
+  font-weight: bold;
+  color: #222222;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+}
+
+/* Content Section */
+.content {
+  margin-bottom: 2rem;
+}
+
+.content h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #222222;
+}
+
+.content p {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #222222;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .content-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-wrapper h2 {
+    font-size: 1.25rem;
+  }
+
+  .content-wrapper h3 {
+    font-size: 1.125rem;
+  }
+
+  .content-wrapper h4 {
+    font-size: 1.125rem;
+  }
+
+  .content-wrapper p {
+    font-size: 0.875rem;
+  }
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #222222;
+  margin-top: 2rem;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3; /* Light gray background */
+  border-top: 4px solid #3498db; /* Blue spinner color */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error state */
+.error {
+  text-align: center;
+  color: #ff6347;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
