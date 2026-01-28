@@ -61,32 +61,34 @@ const ServiceLevelForm: React.FC<ServiceLevelFormProps> = React.memo(
       resolver: zodResolver(serviceLevelSchema),
       defaultValues: initialData
         ? {
-            ...initialData,
-            paymentGateway: initialData.paymentGateway
+          ...initialData,
+          paymentGateway: initialData.paymentGateway
+            ? typeof initialData.paymentGateway === "string"
               ? initialData.paymentGateway
-              : "none",
-            serviceTypes:
-              initialData.serviceTypes?.map((type: any) => type._id) || [],
-            amex: initialData.amex ?? true,
-          }
+              : (initialData.paymentGateway as any)._id
+            : "none",
+          serviceTypes:
+            initialData.serviceTypes?.map((type: any) => type._id) || [],
+          amex: initialData.amex ?? true,
+        }
         : {
-            _id: "",
-            serviceLevel: "",
-            time: "",
-            speedInWeeks: 3,
-            price: 1,
-            nonRefundableFee: 1,
-            inboundFee: 0,
-            outboundFee: 0,
-            paymentGateway: "none",
-            authOnlyFrontend: "",
-            doubleCharge: "",
-            loa: "",
-            isActive: true,
-            isDeleted: false,
-            serviceTypes: [],
-            amex: true,
-          },
+          _id: "",
+          serviceLevel: "",
+          time: "",
+          speedInWeeks: 3,
+          price: 1,
+          nonRefundableFee: 1,
+          inboundFee: 0,
+          outboundFee: 0,
+          paymentGateway: "none",
+          authOnlyFrontend: "",
+          doubleCharge: "",
+          loa: "",
+          isActive: true,
+          isDeleted: false,
+          serviceTypes: [],
+          amex: true,
+        },
     });
     const [merchantAccounts, setMerchantAccounts] = useState<
       { processorName: string; _id: string }[]
