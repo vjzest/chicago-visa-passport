@@ -14,7 +14,7 @@ import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import purpleCheckIcon from "../../../../../../../public/assets/images/3d-green-check-icon.png";
+import purpleCheckIcon from "../../../../../../../../public/assets/images/3d-green-check-icon.png";
 import { Loader2, XCircle } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import LoadingPage from "@/components/globals/loading/loading-page";
@@ -50,17 +50,17 @@ const formSteps: {
   component: React.FC<any>;
   key: IPassportFormKeys | "lostInfo" | "detailsPreview" | "nameChangeInfo";
 }[] = [
-  { component: PersonalInfoForm, key: "personalInfo" },
-  { component: ContactInfoForm, key: "contactInfo" },
-  { component: TravelPlansForm, key: "travelPlans" },
-  { component: EmergencyContactForm, key: "emergencyContact" },
-  { component: PassportHistoryForm, key: "passportHistory" },
-  { component: NameChangeInfoForm, key: "nameChangeInfo" },
-  { component: LostPassportForm, key: "lostInfo" },
-  { component: ParentAndMarriageInfoForm, key: "parentAndMarriageInfo" },
-  { component: DetailsPreview, key: "detailsPreview" },
-  { component: ProductInfoForm, key: "productInfo" },
-];
+    { component: PersonalInfoForm, key: "personalInfo" },
+    { component: ContactInfoForm, key: "contactInfo" },
+    { component: TravelPlansForm, key: "travelPlans" },
+    { component: EmergencyContactForm, key: "emergencyContact" },
+    { component: PassportHistoryForm, key: "passportHistory" },
+    { component: NameChangeInfoForm, key: "nameChangeInfo" },
+    { component: LostPassportForm, key: "lostInfo" },
+    { component: ParentAndMarriageInfoForm, key: "parentAndMarriageInfo" },
+    { component: DetailsPreview, key: "detailsPreview" },
+    { component: ProductInfoForm, key: "productInfo" },
+  ];
 
 type PageProps = {
   params: {
@@ -527,7 +527,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
         showFileSearch={
           !(
             passportForm?.passportHistory?.passportBookDetails?.status ===
-              "yes" ||
+            "yes" ||
             passportForm?.passportHistory?.passportCardDetails?.status === "yes"
           )
         }
