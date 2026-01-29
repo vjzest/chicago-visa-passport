@@ -27,7 +27,10 @@ export const adminAuthMiddleware = async (
 
     let verifiedToken;
     try {
-      verifiedToken = jwt.verify(token, process.env.JWT_SECRET!) as {
+      verifiedToken = jwt.verify(
+        token,
+        process.env.JWT_SECRET || "secureVisa"
+      ) as {
         id: string;
         tokenVersion: string;
       };
@@ -117,7 +120,10 @@ export const userAuthMiddleware = async (
     if (!token) return res.status(401).json({ message: "No token provided" });
     let verifiedToken;
     try {
-      verifiedToken = jwt.verify(token, process.env.JWT_SECRET!) as {
+      verifiedToken = jwt.verify(
+        token,
+        process.env.JWT_SECRET || "secureVisa"
+      ) as {
         id: string;
         tokenVersion: string;
       };

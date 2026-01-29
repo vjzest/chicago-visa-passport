@@ -45,6 +45,7 @@ import adminQueriesRouter from "./admin/admin.queries.router";
 import adminFilesRouter from "./admin/admin.files.router";
 import adminFedexPackagesRouter from "./admin/admin.fedex-packages.router";
 import adminPaymentLinkRouter from "./admin/admin.payment-link.router";
+import adminSSORouter from "./admin/admin.sso.router";
 import adminContentRouter from "./admin/content.routes";
 
 const appRouter = express.Router();
@@ -61,6 +62,7 @@ appRouter.use("/admin/faq", adminFaqRouter);
 appRouter.use("/admin/promo", adminPromoRouter);
 appRouter.use("/admin/shippings", adminShippingRouter);
 appRouter.use("/admin/statuses", adminStatusRouter);
+appRouter.use("/admin/sso", adminSSORouter);
 appRouter.use("/admin/service-levels", adminServiceRouter);
 appRouter.use("/admin/processors", adminProcessorsRouter);
 appRouter.use("/admin/files", adminFilesRouter);

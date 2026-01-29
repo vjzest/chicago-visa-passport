@@ -57,6 +57,11 @@ export interface IRole {
     liveChat: boolean;
   };
   viewManifest: {
+    view: boolean;
+    addRemark: boolean;
+    downloadManifest: boolean;
+    viewDetail: boolean;
+    searchCases: boolean;
     officeEdit: boolean;
     officeArchive: boolean;
     courierEdit: boolean;
@@ -186,6 +191,11 @@ const roleSchema = new mongoose.Schema<IRole>({
     _id: false,
   },
   viewManifest: {
+    view: { type: Boolean, default: false },
+    addRemark: { type: Boolean, default: false },
+    downloadManifest: { type: Boolean, default: false },
+    viewDetail: { type: Boolean, default: false },
+    searchCases: { type: Boolean, default: false },
     officeEdit: { type: Boolean, default: false },
     officeArchive: { type: Boolean, default: false },
     courierEdit: { type: Boolean, default: false },
