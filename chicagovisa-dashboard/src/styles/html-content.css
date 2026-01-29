@@ -1,0 +1,169 @@
+.html-content {
+  line-height: 1.6;
+  color: #333;
+}
+
+.html-content h1,
+.html-content h2,
+.html-content h3,
+.html-content h4,
+.html-content h5,
+.html-content h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.html-content h1 {
+  font-size: 2em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.3em;
+}
+
+.html-content h2 {
+  font-size: 1.5em;
+}
+
+.html-content h3 {
+  font-size: 1.25em;
+}
+
+.html-content h4 {
+  font-size: 1.1em;
+}
+
+.html-content h5 {
+  font-size: 1em;
+}
+
+.html-content h6 {
+  font-size: 0.9em;
+}
+
+.html-content p {
+  margin-bottom: 1em;
+}
+
+.html-content ul,
+.html-content ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+.html-content ul {
+  list-style-type: disc;
+}
+
+.html-content ol {
+  list-style-type: decimal;
+}
+
+.html-content li {
+  margin-bottom: 0.5em;
+}
+
+.html-content blockquote {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-left: 4px solid #ddd;
+  background-color: #f9f9f9;
+  font-style: italic;
+}
+
+.html-content code {
+  background-color: #f4f4f4;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+}
+
+.html-content pre {
+  background-color: #f4f4f4;
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.html-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+.html-content a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.html-content a:hover {
+  color: #0052a3;
+}
+
+.html-content strong,
+.html-content b {
+  font-weight: bold;
+}
+
+.html-content em,
+.html-content i {
+  font-style: italic;
+}
+
+.html-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.html-content th,
+.html-content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.html-content th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.html-content hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+.html-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+}
+
+.html-content del {
+  text-decoration: line-through;
+}
+
+.html-content ins {
+  text-decoration: underline;
+}
+
+.html-content mark {
+  background-color: #ffff00;
+  padding: 0.1em 0.2em;
+}
+
+.html-content small {
+  font-size: 0.8em;
+}
+
+.html-content sub {
+  vertical-align: sub;
+  font-size: 0.8em;
+}
+
+.html-content sup {
+  vertical-align: super;
+  font-size: 0.8em;
+}

@@ -1,0 +1,8 @@
+const env = {
+  BASE_URL: process.env.NEXT_PUBLIC_BASE_URL,
+  PASSPORT_BASE_URL: process.env.NEXT_PUBLIC_PASSPORT_BASE_URL,
+  CHICAGO_SITE_URL: process.env.NEXT_PUBLIC_CHICAGO_SITE_URL,
+  PASSPORT_SITE_URL: process.env.NEXT_PUBLIC_PASSPORT_SITE_URL,
+};
+
+export default env;
