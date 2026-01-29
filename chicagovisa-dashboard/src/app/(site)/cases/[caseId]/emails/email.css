@@ -1,0 +1,24 @@
+/* Default styles for heading tags */
+h1 {
+  font-size: 2em; /* Default font size */
+  font-weight: bold; /* Bold text */
+  margin: 0.67em 0; /* Top and bottom margins */
+  line-height: 1.2; /* Line height for readability */
+  color: inherit; /* Inherits text color from parent */
+}
+
+h2 {
+  font-size: 1.5em; /* Slightly smaller than h1 */
+  font-weight: bold; /* Bold text */
+  margin: 0.75em 0; /* Top and bottom margins */
+  line-height: 1.3; /* Line height for readability */
+  color: inherit; /* Inherits text color from parent */
+}
+
+h3 {
+  font-size: 1.17em; /* Slightly smaller than h2 */
+  font-weight: bold; /* Bold text */
+  margin: 0.83em 0; /* Top and bottom margins */
+  line-height: 1.4; /* Line height for readability */
+  color: inherit; /* Inherits text color from parent */
+}
